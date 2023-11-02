@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+
+ body{
+        background: #eef0ff;
+        color: #2c3e50;
+        font-family: sans-serif;
+      }
+ h1 p{
+        text-align: center;
+        margin-bottom: 10px;
+      }
+ h1{
+        padding-top: 30px;
+      }
+ p{
+  padding-bottom: 30px;
+  
+ }
+ .wrapper{
+  background: #636fdf;
+  padding: 50px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ }
+ input{
+  position: absolute;
+  opacity: 0;
+  z-index: -1;
+ }
+ .accordation{
+  width: 60%;
+  overflow: hidden;
+ }
+ .item{
+  margin-bottom: 20px;
+  border-radius: 8px;
+  overflow: hidden;
+ }
+ .title{
+  background: #fff;
+  display: flex;
+  padding: 1em;
+  justify-content: space-between;
+  color:#000;
+  font-weight: bold;
+  cursor: pointer;
+
+ }
+ .title:after{
+  content: "<i class="fa-solid fa-chevron-up"></i>";
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  transition: all 0.35s;
+ }
+
+ .content{
+  background: #fff;
+  padding: 0 1em;
+  color: grey;
+  max-height: 0;
+  transition: all 0.35s;
+ }
+ input:checked + .title:after{
+  transform: rotate(90deg);
+ }
+ input:checked ~ .content{
+  max-height: 100vh;
+  padding: 1em;
+ }
+
+
+</style>
+</head>
+<body>
+       <h1> frekdjifj3r drthirnqk3f cruhtnqi4</h1>
+       <p>krjhtrqni3r 348y2trf 248ur fr27tfu238</p>
+
+       <div class="wrpper">
+        <div class="acordation">
+          <div class="item">
+            <input type="radio" id="one" name="item">
+            <label for="one" class="title">wkfirw rfewngweriew</label>
+            <div class="content">
+              kwmerj3495r31o2i40231 493u591i5uj12r92j23`9
+              r94ur549u2594i2u58r315
+            </div>
+          </div>
+          <div class="item">
+            <input type="radio" id="two" name="item">
+            <label for="two" class="title">fgwjyureyreybrty</label>
+            <div class="content">
+              ,mri  rj  re r8wejir  jr9u  rru]
+              ruwhrn  qjrwhrnwug wuthwrgr
+            </div>
+          </div>
+          <div class="item">
+            <input type="radio" id="three" name="item">
+            <label for="three" class="title">reyhbay5hr  ed eyatwhjynsh</label>
+            <div class="content">
+              mwnforu ithifnweru23rnor3ribqor rihrqnouqfqnri
+            </div>
+          </div>
+        </div>
+      </div>
+</body>
+</html>
